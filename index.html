@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGANATHAN M's Portfolio</title>
+    <style>
+      body {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #3c005a;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #6f2b7c;
+        padding: 1px;
+        text-align: center;
+        color: #ffd700;
+      }
+
+      /* Gold Header Text */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        color: #ffd700;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+        text-align: center;
+      }
+
+      h2,
+      h1,
+      a {
+        background: linear-gradient(45deg, #ffd700, #ffec8b);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        /* Glossy Effect */
+      }
+
+      .slider {
+        width: 50%;
+        margin: 0 auto;
+        overflow: hidden;
+        border: 5px solid #ffd700;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        position: relative;
+      }
+
+      .slider-container {
+        display: flex;
+        transition: transform 1s ease-in-out; 
+      }
+
+      .slider-container img {
+        width: 100%;
+        height: 450px; 
+        flex-shrink: 0;
+        background-color: rgb(3, 0, 0);
+      }
+
+      footer {
+        background-color: #6f2b7c;
+        padding: 10px;
+        text-align: center;
+        color: #ffd700;
+      }
+
+      /* Glossy Footer */
+      .project-list,
+      .education,
+      .objective {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      .project,
+      .education-detail,
+      .objective-detail {
+        background-color: #502b62;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      #about{
+        width:60%;
+        margin:0 auto;
+        text-align: justify;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 768px) {
+        .slider {
+          width: 100%;
+          border: none;
+          box-shadow: none;
+        }
+
+        section {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>LOGANATHAN M's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#internship">Internships</a></li>
+          <li><a href="#objective">Objective</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <center><h2>About Me</h2></center>
+      <p>
+        I am a passionate and dedicated web developer with hands-on experience in creating responsive, user-friendly, and visually appealing websites. I enjoy transforming ideas into functional digital experiences using modern web technologies. Whether it's developing a personal portfolio, an e-commerce platform, or a fully customized business website, I take pride in writing clean, efficient code and delivering solutions that meet user and business needs. My passion lies in continuous learning and turning creativity into impactful web solutions.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Web Browser (Visual Basic)</h3>
+          <ul>
+            <li>Implemented Google Chromium open-source framework to support modern websites.</li>
+            <li>Developed a basic browser with essential features such as backward, forward, home, history, and favorites.</li>
+            <li>Enhanced user experience by providing two themes - black and white.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>ADOPLE AI Company Website</h3>
+          <ul>
+            <li>Modified an existing template from the internet to create a modern, responsive website for ADOPLE AI.</li>
+            <li>Deployed the website live at <a href="https://www.adople.com" target="_blank">www.adople.com</a>.</li>
+            <li>Optimized for performance and SEO, enhancing the company's online presence.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Shopping Site with Sentiment Analysis</h3>
+          <ul>
+            <li>Developed a full-featured e-commerce site with a real-time admin dashboard for sentiment analysis using a VADER-based PHP package.</li>
+            <li>Enabled users to post public reviews while providing the admin with dynamic visualizations (Pie, Doughnut, Line, Bar) via Chart.js.</li>
+            <li>Tech Stack: PHP, MySQL, JavaScript, Chart.js, HTML, CSS — delivering AI-powered insights into customer satisfaction.</li>
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certificates</h2>
+      <div class="slider">
+        <div class="slider-container" id="slider-container">
+          <img src="img/Mongo DB .png" alt="Certificate Image" />
+          <img src="img/Data Analytics and Visualization job simulation.png" alt="Certificate Image" />
+	 <img src="img/macincode.png" alt="Certificate Image" />
+          <img src="img/Healthcare Management Executive.jpg" alt="Certificate Image" />
+          <img src="img/IBM AISA Certificate copy.png" alt="Certificate Image" />
+          <img src="img/Introduction to MS Excel.png" alt="Certificate Image" />
+          <img src="img/IQ General Intelligence.png" alt="Certificate Image" />
+          <img src="img/Rank 2 - BCA.jpg" alt="Certificate Image" />
+          <img src="img/Rank 3 - Foundation English.jpg" alt="Certificate Image" />
+          <img src="img/SE Job Simulation - Crack leaked password.png" alt="Certificate Image" />
+          <img src="img/Software Engineer Job Simulation.png" alt="Certificate Image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="internship">
+      <h2>Internships</h2>
+      <div class="education">
+      <div class="education-detail">
+        <h3>Web Development Intern</h3>
+        <p>
+          Macincode Technologies Private Limited<br>
+          May 2024<br>
+          Completed a 15-day industrial internship in web development, actively participated in projects, and applied academic knowledge to practical, real-world scenarios.
+        </p>
+        <h3>Frontend Development Intern</h3>
+        <p>ADOPLE AI <br>
+          June 2024 - March 2025 <br>
+          Modified an existing template from the internet to create a modern, responsive website for ADOPLE AI.<br>
+          Worked in various projects.<br>
+
+        </p>
+      </div></div>
+    </section>
+    
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education">
+        <div class="education-detail">
+          <h3>Bachelor of Computer Applications</h3>
+          <p>
+            Government Arts College (Autonomous), Salem – 636007<br>
+            September 2020 – May 2023<br>
+            CGPA – 7.77
+          </p>
+
+          <h3>Master of Science in Computer Science</h3>
+          <p>
+            Government Arts College (Autonomous), Salem – 636007<br>
+            September 2023 – May 2025<br>
+            CGPA – 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="objective">
+      <h2>Objective</h2>
+      <div class="objective">
+        <div class="objective-detail">
+          <p>
+            Motivated and enthusiastic individual seeking opportunities to learn, grow, and contribute meaningfully in both IT and non-IT environments. Actively exploring career paths in frontend development and data entry, with a strong interest in building technical and analytical skills. Eager to gain practical experience, receive mentorship, and showcase abilities through real-world projects. Committed to continuous personal and professional development with a strong work ethic and attention to detail.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: loganathanbcashift2@gmail.com</p>
+      <p>Phone: 9025475968</p>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; <span id="year"></span> Loganathan.</p>
+      <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("year").innerText = currentYear;
+      </script>
+    </footer>
+    
+
+    <script>
+      const sliderContainer = document.getElementById("slider-container");
+      const images = sliderContainer.querySelectorAll("img");
+      let currentIndex = 0;
+
+      const handleImageSlide = () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        const offset = -currentIndex * 100; // Calculate the offset for sliding
+        sliderContainer.style.transform = `translateX(${offset}%)`;
+      };
+
+      // Slide images every 3 seconds (3000 milliseconds)
+      setInterval(handleImageSlide, 3000);
+    </script>
+  </body>
+</html>
